@@ -16,6 +16,8 @@ service: manual-test-websocket-authorizer
 provider:
   name: aws
   runtime: nodejs10.x
+  environment:
+    IS_OFFLINE: true
 
   iamRoleStatements:
     - Effect: Allow
