@@ -4,12 +4,7 @@
 
 Set AWS credentials, e.g.: `export AWS_PROFILE=...`
 
-In this directory: `npm i`
-
-
-## Deploy Data Scheme to AWS
-
-`npm run deploy-aws data`
+In this directory: `npm i` and `npm i serverless-offline@next --save-dev` or `npm i serverless-offline --save-dev`
 
 
 ## Automatically run all tests locally

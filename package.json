@@ -26,7 +26,6 @@
     "chai-http": "^4.3.0",
     "mocha": "^6.1.4",
     "moment": "^2.24.0",
-    "serverless-offline": "^6.0.0-alpha.33",
     "ws": "^7.0.0"
   }
 }
