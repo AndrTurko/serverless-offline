@@ -57,20 +57,8 @@ resources:
       Export:
         Name: DataTableForTesting
 
-plugins:
-  - serverless-dynamodb-local
-  - serverless-offline
-
 package:
   excludeDevDependencies: false
   exclude:
     - ./**
-
-custom:
-  dynamodb:
-    stages:
-      - dev
-    start:
-      migrate: true
-      inMemory: true
       
