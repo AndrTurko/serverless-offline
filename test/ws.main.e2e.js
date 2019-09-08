@@ -323,6 +323,7 @@ describe('serverless', () => {
       const url = new URL(endpoint);
       const expected = {
         Host: url.hostname,
+        'X-Forwarded-For': '',
         'x-api-key': '',
         'x-restapi': '',
       };
